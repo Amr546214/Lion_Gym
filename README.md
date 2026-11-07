@@ -1,15 +1,19 @@
-# 🏋️ Lion Gym Landing Page
+# Lion Gym
 
-Responsive gym landing page built using pure HTML & CSS.
+A static multi-page gym website built as a frontend practice project. It contains a landing page, service information, workout plans, exercise videos, and sign-in and registration form layouts.
 
-## Features
-- Responsive layout
-- Modern design
+[Open the live demo](https://lion-gym.netlify.app/)
 
-## Tech Stack
-- HTML
-- CSS
+![Lion Gym landing page](docs/images/preview.webp)
 
-Live Demo: https://lion-gym.netlify.app/
+## Run locally
 
-GitHub: https://github.com/Amr546214/Lion_Gym
+Use Python 3 to serve the project and its bundled media.
+
+```bash
+python3 -m http.server 8000
+```
+
+Visit `http://localhost:8000`. The sign-in and registration pages demonstrate form layouts. Exercise videos are bundled in the training-day folders, which make up most of the repository download.
+
+**Stack:** HTML, CSS, and vanilla JavaScript.
